@@ -23,4 +23,13 @@
             <servlet-name>servletMethod</servlet-name>
             <url-pattern>/method</url-pattern>
         </servlet-mapping>
+
+        <servlet>
+            <servlet-name>request</servlet-name>
+            <servlet-class>servlet.RequestServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>request</servlet-name>
+            <url-pattern>/req</url-pattern>
+        </servlet-mapping>
 </web-app>
