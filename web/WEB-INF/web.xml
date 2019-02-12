@@ -6,12 +6,21 @@
     <!--配置servlet-->
         <!--配置servlet类路径-->
         <servlet>
-            <servlet-name>myservlet</servlet-name>
+            <servlet-name>my1</servlet-name>
             <servlet-class>servlet.MyServlet</servlet-class>
         </servlet>
         <!--配置访问方式-->
         <servlet-mapping>
-            <servlet-name>myservlet</servlet-name>
-            <url-pattern>/*</url-pattern>
+            <servlet-name>my1</servlet-name>
+            <url-pattern>/my1</url-pattern>
+        </servlet-mapping>
+    <!--配置第二个servlet-->
+        <servlet>
+            <servlet-name>servletMethod</servlet-name>
+            <servlet-class>servlet.ServletMethod</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>servletMethod</servlet-name>
+            <url-pattern>/method</url-pattern>
         </servlet-mapping>
 </web-app>
